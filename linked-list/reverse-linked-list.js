@@ -4,7 +4,6 @@
 
 const reverseList = function (head) {
   let node = null;
-
   // [1, 2, 3, 4, 5]
   while (head) {
     const temp = head.next; // 2
@@ -14,6 +13,3 @@ const reverseList = function (head) {
   }
   return node;
 };
-
-// Test Case
-console.log(reverseList([1, 2, 3, 4, 5]));
